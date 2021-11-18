@@ -1,0 +1,3 @@
+﻿  ContenedoraDob.cpp
+C:\Users\XPC\Desktop\Primer Examen - Studio\Primer Examen - Studio\ContenedoraDob.cpp(83,45): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
+  Primer Examen - Studio.vcxproj -> C:\Users\XPC\Desktop\Primer Examen - Studio\Debug\Primer Examen - Studio.exe

@@ -14,7 +14,9 @@ string Persona::toString() {
 }
 
 void cambioSuNombre(Persona& per2) {
-
+	string nomNuevo;
+	cin >> nomNuevo;
+	per2.setNombre(nomNuevo);
 }
 
 // Declara una funcion /Procedimiento
