@@ -6,8 +6,17 @@ private:
 	string correoEl;
 	char sexo;
 public:
-	Piloto(string, string, int, string, char);
+	Piloto(string, string, int, string, string, char);
 	virtual ~Piloto();
+
+	virtual void setNombre(string);
+	virtual string getNombre();
+
+	virtual void setCedula(string);
+	virtual string getCedula();
+
+	virtual void setEdad(int);
+	virtual int getEdad();
 
 	void setCorreo(string);
 	string getCorreo();
@@ -15,5 +24,8 @@ public:
 	void setSexo(char);
 	char getSexo();
 
-	virtual string toString();
+	virtual void setCodigo(string);
+	virtual string getCodigo();
+
+	virtual string toString() const;
 };

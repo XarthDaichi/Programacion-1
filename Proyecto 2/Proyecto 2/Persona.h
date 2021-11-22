@@ -13,14 +13,14 @@ public:
 	Persona(string, string, int);
 	virtual ~Persona();
 
-	void setNombre(string);
-	string getNombre();
+	virtual void setNombre(string) = 0;
+	virtual string getNombre() = 0;
 
-	void setCedula(string);
-	string getCedula();
+	virtual void setCedula(string) = 0;
+	virtual string getCedula() = 0;
 
-	void setEdad(int);
-	int getEdad();
+	virtual void setEdad(int) = 0;
+	virtual int getEdad() = 0;
 
-	virtual string toString() = 0;
+	virtual string toString() const = 0;
 };

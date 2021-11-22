@@ -1,0 +1,4 @@
+﻿  Principal.cpp
+C:\Users\Santiago Caamaño P\Desktop\Programacion 1 - Menues y SubMenues\Programacion 1 - Menues y SubMenues\Principal.cpp(7,20): warning C4101: 'op3': variable local sin referencia
+C:\Users\Santiago Caamaño P\Desktop\Programacion 1 - Menues y SubMenues\Programacion 1 - Menues y SubMenues\Principal.cpp(7,25): warning C4101: 'op4': variable local sin referencia
+C:\Users\Santiago Caamaño P\Desktop\Programacion 1 - Menues y SubMenues\Programacion 1 - Menues y SubMenues\Principal.cpp(7,30): warning C4101: 'op5': variable local sin referencia

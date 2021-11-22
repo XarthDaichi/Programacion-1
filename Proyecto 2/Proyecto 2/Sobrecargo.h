@@ -5,10 +5,19 @@ class Sobrecargo: public Tripulacion {
 private:
 	string titulo;
 	string telCelular;
-	int grado;
+	string grado;
 public:
-	Sobrecargo(string, string, int, string, string, int);
+	Sobrecargo(string, string, int, string, string, string, string);
 	virtual ~Sobrecargo();
+
+	virtual void setNombre(string);
+	virtual string getNombre();
+
+	virtual void setCedula(string);
+	virtual string getCedula();
+
+	virtual void setEdad(int);
+	virtual int getEdad();
 
 	void setTitulo(string);
 	string getTitulo();
@@ -16,8 +25,11 @@ public:
 	void setTelCelular(string);
 	string getTelCelular();
 
-	void setGrado(int);
-	int getGrado();
+	void setGrado(string);
+	string getGrado();
 
-	virtual string toString();
+	virtual void setCodigo(string);
+	virtual string getCodigo();
+
+	virtual string toString() const;
 };

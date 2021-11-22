@@ -33,16 +33,10 @@
     <ClInclude Include="Pasajero.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Sobrecargo.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Piloto.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Flota.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="InterfazMain.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Fecha.h">
@@ -54,6 +48,51 @@
     <ClInclude Include="Tripulacion.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="NodoTripulacion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NodoPasajero.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NodoVuelo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NodoRuta.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NodoReservacion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Reservacion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ContenedorLPasajero.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ContenedorLReservacion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ContenedorLRuta.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ContenedorLTripulacion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ContenedorLVuelo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilidades.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sobrecargo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interfaz.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Controladora.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Aerolinea.cpp">
@@ -62,7 +101,7 @@
     <ClCompile Include="Avion.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Main.cpp">
+    <ClCompile Include="Principal.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Persona.cpp">
@@ -93,6 +132,48 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Flota.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Reservacion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NodoPasajero.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NodoReservacion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NodoRuta.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NodoTripulacion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NodoVuelo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ContenedorLVuelo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilidades.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ContenedorLTripulacion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ContenedorLResrvacion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ContenedorLRuta.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ContenedorLPasajero.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interfaz.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Controladora.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

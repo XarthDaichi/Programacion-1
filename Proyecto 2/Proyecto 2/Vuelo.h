@@ -1,20 +1,23 @@
 #pragma once
 #include "Avion.h"
-#include "Ruta.h"
+#include "ContenedorLRuta.h"
 #include "Fecha.h"
 #include "Hora.h"
 
 class Vuelo {
 private:
-	Avion* av;
-	Ruta* ru;
+	Avion* avion;
+	string codigoRuta;
 	string aeropuertoSalida;
 	string aeropuertoLlegada;
 	Fecha* fechaSalida;
 	Hora* horaSalida;
 	Hora* horaLlegada;
+	string codigo;
+	int asientosRestantes;
+	bool uso;
 public:
-	Vuelo(string, string, Fecha*, Hora*, Hora*, Ruta*, Avion*);
+	Vuelo(string, string, Avion*, string, Fecha*, Hora*, Hora*, string, bool);
 	virtual ~Vuelo();
 
 	void setAeropuertoSalida(string);
@@ -35,8 +38,21 @@ public:
 	void setAvion(Avion*);
 	Avion* getAvion();
 
-	void setRuta(Ruta*);
-	Ruta* getRuta();
+	void setRuta(string);
+	string getCodigoRuta();
+	Ruta* getRuta(ContenedorLRuta*);
 
-	string toString() const;
+	void setCodigo(string);
+	string getCodigo();
+
+	void devolverAsientos(int);
+	void comprarAsientos(int);
+	void setAsientosRestantes(int);
+	int getAsientosRestantes();
+
+	void setUso(bool);
+	bool getUso();
+
+
+	string toString(ContenedorLTripulacion*, ContenedorLRuta*) const;
 };

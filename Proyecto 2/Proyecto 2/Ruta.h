@@ -9,10 +9,12 @@ private:
 	string origen;
 	string destino;
 	string duracion;
-	string cantidadDeEscalas;
+	int cantidadDeEscalas;
 	double valorPasajeros;
+	string codigo;
+	bool usada;
 public:
-	Ruta(string, string, string, string, double);
+	Ruta(string, string, string, int, double, string, bool);
 	virtual ~Ruta();
 
 	void setOrigen(string);
@@ -24,11 +26,17 @@ public:
 	void setDuracion(string);
 	string getDuracion();
 
-	void setCantidadDeEscalas(string);
-	string getCantidadDeEscalas();
+	void setCantidadDeEscalas(int);
+	int getCantidadDeEscalas();
 
 	void setValorPasajeros(double);
 	double getValorPasajeros();
+
+	void setCodigo(string);
+	string getCodigo();
+
+	void setUsada(bool);
+	bool getUsada();
 
 	string toString() const;
 };
